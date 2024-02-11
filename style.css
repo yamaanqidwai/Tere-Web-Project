@@ -1,0 +1,52 @@
+a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .flex-row {
+    display: flex;
+    flex-flow: row;
+  }
+
+  .list-style-none {
+    list-style-type: none;
+  }
+
+  .nav-first {
+    list-style-type: none;
+  }
+
+  .nav-bar-flex {
+    display: flex;
+    flex-flow: row;
+    background-color: black;
+    align-items: center;
+    height: 92px;
+    max-width: 1140px;
+    padding: 8px 0px 8px 0px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  nav figure {
+    position: relative;
+    top: 5px;
+  }
+
+  nav ul {
+    display: flex;
+    flex-flow: row;
+    align-items: baseline;
+    position: relative;
+    /* top: 0px; */
+    /* left: 290px; */
+    height: fit-content;
+    color: white;
+    margin-left: auto;
+  }
+
+  nav ul > li {
+    list-style-type: none;
+    position: relative;
+    padding: 10px;
+  }
